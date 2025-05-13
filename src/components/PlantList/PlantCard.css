@@ -5,6 +5,10 @@
   text-align: center;
   background: linear-gradient(135deg, #3f87a6, #ebf8e1, #f69d3c);
   box-shadow: 5px 5px #88888868;
+  transition: box-shadow 0.5s;
+}
+.plant-card:hover {
+  box-shadow: 5px 5px #424141ef;
 }
 
 .plant-emoji {
