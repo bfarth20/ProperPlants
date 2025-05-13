@@ -1,0 +1,18 @@
+.available-plants {
+  display: inline-block;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #1b6b61;
+  margin: 0 auto 20px auto;
+  padding: 0px 30px;
+  background: linear-gradient(135deg, rgb(213, 248, 253), rgb(226, 255, 226));
+  border-radius: 10px;
+  border: 1px solid rgba(16, 104, 39, 0.426);
+  box-shadow: 0px 0px 10px #888888;
+}
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
+}

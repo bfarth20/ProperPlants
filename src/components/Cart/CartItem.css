@@ -1,0 +1,26 @@
+.cart-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-bottom: 1px solid #ccc;
+}
+
+.cart-item-img {
+  font-size: 1.5rem;
+}
+
+.cart-item-name {
+  flex: 1;
+  font-weight: 500;
+}
+
+.cart-item-qty {
+  font-style: italic;
+}
+
+.cart-item button {
+  padding: 0.25rem 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}

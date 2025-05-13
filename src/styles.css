@@ -1,0 +1,53 @@
+/* ===== Global Reset & Base Styles ===== */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-image: radial-gradient(
+    rgb(255, 223, 187),
+    rgb(223, 255, 197),
+    rgb(167, 255, 255)
+  );
+  color: #333;
+  line-height: 1.6;
+}
+
+/* ===== App-Wide Layout Containers ===== */
+.plant-body {
+  text-align: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ===== Page Title ===== */
+.title {
+  display: inline-block;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #1b6b61;
+  margin: 0 auto 20px auto;
+  padding: 0px 30px;
+  background: linear-gradient(135deg, rgb(213, 248, 253), rgb(226, 255, 226));
+  border-radius: 10px;
+  border: 1px solid rgba(16, 104, 39, 0.438);
+  box-shadow: 0px 0px 10px #888888;
+}
+
+/* ===== Grid Layout for Main Sections ===== */
+.page-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+/* Optional: Responsive adjustments */
+@media (max-width: 768px) {
+  .page-grid {
+    grid-template-columns: 1fr;
+  }
+}
